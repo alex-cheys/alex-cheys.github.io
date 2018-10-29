@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-rows: 10% 85% 5%;
+	grid-template-columns: 20% 80%;
+}
+
+#header
+{
+	background-color: #303133;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	border-bottom: 2px solid #242526;
+}
+
+#sidebar
+{
+	background-color: #474a4f;
+	border-right: 1px;
+	box-shadow: 0 5px 10px inset;
+	padding: 10px;
+}
+
+#sidebar p
+{
+	color: #c7ccd6;
+	font-size: 80px;
+	text-align: center
+}
+
+#content
+{
+	background-color: yellow;
+	background: url(https://media.giphy.com/media/3gS6dPa2YpUlNhKg1S/giphy.gif);
+	background-size: cover;
+	box-shadow: 0 5px 10px inset;
+}
+
+#footer
+{
+	background-color: #303133;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	text-align: center;
+	border-top: 2px solid #242526;
+	box-shadow: 0 1px 10px #242526;
+}
+
+#footer p
+{
+	color: #e3e5ea;
+	position: relative;
+	top: 25%;
+}
+
+h1
+{
+	font-size: 80px;
+	color: #f7f456;
+	position: relative;
+	top: 10%;
+	margin-left: 10px;
+}
